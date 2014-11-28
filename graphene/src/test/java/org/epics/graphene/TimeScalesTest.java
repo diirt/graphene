@@ -8,7 +8,6 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
-import org.epics.util.array.ListDouble;
 import org.epics.util.time.TimeDuration;
 import org.epics.util.time.TimeInterval;
 import org.epics.util.time.Timestamp;
@@ -17,7 +16,6 @@ import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.*;
 import static org.epics.graphene.TimeScales.TimePeriod;
 import static java.util.GregorianCalendar.*;
-import org.epics.util.time.TimestampFormat;
 
 /**
  *

@@ -31,6 +31,7 @@ public class AxisRangesTest {
 
     @Test(expected=IllegalArgumentException.class)
     public void fixed2() {
+        @SuppressWarnings("unused")
         AxisRange axisRange = AxisRanges.fixed(10.0, 0.0);
     }
 

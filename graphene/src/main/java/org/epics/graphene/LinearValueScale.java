@@ -8,7 +8,6 @@ import org.epics.util.stats.Range;
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import static org.epics.graphene.ValueAxis.orderOfMagnitude;
 import org.epics.util.text.NumberFormats;
 
 /**

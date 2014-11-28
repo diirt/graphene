@@ -9,7 +9,6 @@ import org.epics.util.stats.Statistics;
 import org.epics.util.stats.Range;
 import org.epics.util.array.ArrayDouble;
 import org.epics.util.array.IteratorNumber;
-import org.epics.util.array.ListDouble;
 import org.epics.util.array.ListNumber;
 import org.epics.util.array.ListNumbers;
 import org.epics.util.stats.Ranges;
@@ -26,8 +25,6 @@ class Cell1DHistogramDataset implements Cell1DDataset {
     
     private double minValueRange;
     private double maxValueRange;
-    private int minCountRange;
-    private int maxCountRange;
     
     
     private double[] values;

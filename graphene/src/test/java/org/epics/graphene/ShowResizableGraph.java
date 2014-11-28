@@ -4,14 +4,9 @@
  */
 package org.epics.graphene;
 
-import java.awt.Graphics2D;
-import java.awt.Image;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import javax.imageio.ImageIO;
-import javax.swing.SwingUtilities;
 
 /**
  *

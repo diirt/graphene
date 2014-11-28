@@ -8,9 +8,6 @@ import org.epics.util.stats.StatisticsUtil;
 import org.epics.util.stats.Statistics;
 import java.util.Random;
 import org.epics.util.array.ArrayDouble;
-import org.epics.util.array.CollectionDouble;
-import org.epics.util.array.CollectionNumber;
-import org.epics.util.array.IteratorDouble;
 import org.epics.util.array.ListNumber;
 import org.epics.util.stats.Range;
 
@@ -21,8 +18,6 @@ import org.epics.util.stats.Range;
 public class MockDataset1D implements Point1DDataset {
     
     private ListNumber values;
-    private double minValue = Double.POSITIVE_INFINITY;
-    private double maxValue = Double.NEGATIVE_INFINITY;
     private Statistics statistics;
 
     public MockDataset1D(double[] data) {

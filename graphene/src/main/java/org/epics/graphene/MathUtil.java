@@ -4,8 +4,6 @@
  */
 package org.epics.graphene;
 
-import org.epics.util.array.IteratorDouble;
-
 /**
  *
  * @author carcassi

@@ -8,16 +8,9 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
-import org.epics.util.array.ArrayDouble;
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.BeforeClass;
 import static org.epics.graphene.Java2DStringUtilities.Alignment.*;
 
 /**

@@ -16,11 +16,6 @@ import java.awt.geom.Path2D;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import static org.epics.graphene.InterpolationScheme.CUBIC;
-import static org.epics.graphene.InterpolationScheme.LINEAR;
-import static org.epics.graphene.InterpolationScheme.NEAREST_NEIGHBOR;
-import static org.epics.graphene.ReductionScheme.FIRST_MAX_MIN_LAST;
-import static org.epics.graphene.ReductionScheme.NONE;
 import org.epics.util.array.ArrayDouble;
 import org.epics.util.array.ListDouble;
 import org.epics.util.array.ListMath;
@@ -148,8 +143,6 @@ public abstract class Graph2DRenderer<T extends Graph2DRendererUpdate> {
     protected List<String> yReferenceLabels;
     private int xLabelMaxHeight;
     private int yLabelMaxWidth;
-    private boolean xAsPoints = true;
-    private boolean yAsPoints = true;
     
     /**
      * The current strategy to calculate the x range for the graph.

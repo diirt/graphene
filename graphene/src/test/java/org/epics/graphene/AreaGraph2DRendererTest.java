@@ -6,17 +6,11 @@ package org.epics.graphene;
 
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import javax.imageio.ImageIO;
-import junit.framework.AssertionFailedError;
 import org.junit.AfterClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.mockito.Mockito.*;
 import org.junit.BeforeClass;
 import static org.epics.graphene.ImageAssert.*;
 import org.epics.util.array.ArrayDouble;
-import org.epics.util.array.ListNumber;
 
 /**
  *

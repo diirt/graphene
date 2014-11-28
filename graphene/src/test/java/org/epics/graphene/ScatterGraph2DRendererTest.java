@@ -6,16 +6,9 @@ package org.epics.graphene;
 
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.util.ArrayList;
 import java.util.Random;
-import javax.imageio.ImageIO;
-import junit.framework.AssertionFailedError;
-import org.epics.util.array.ArrayDouble;
 import org.junit.AfterClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.BeforeClass;
 
 /**
  *
@@ -62,8 +55,6 @@ public class ScatterGraph2DRendererTest extends BaseGraphTest<ScatterGraph2DRend
     }
 
     private Point2DDataset regularDataset() {
-        Random rand = new Random(0);
-        int size = 1000;
         double[] x = new double[]{0, 10, 20, 30, 40, 50};
         double[] y = new double[]{0, 10, 20, 30, 40, 50};
 
