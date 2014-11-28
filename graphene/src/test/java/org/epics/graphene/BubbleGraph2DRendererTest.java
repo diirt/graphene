@@ -13,9 +13,7 @@ import java.util.Random;
 import org.epics.util.array.ArrayDouble;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
-import org.junit.AfterClass;
 import org.junit.Test;
-import org.junit.BeforeClass;
 
 /**
  * @author carcassi

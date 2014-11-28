@@ -4,19 +4,8 @@
  */
 package org.epics.graphene;
 
-import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Random;
-import javax.imageio.ImageIO;
-import junit.framework.AssertionFailedError;
-import org.epics.util.array.ArrayDouble;
-import org.junit.AfterClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import org.junit.BeforeClass;
-import static org.hamcrest.Matchers.*;
 import java.awt.Font;
 import java.awt.Color;
 

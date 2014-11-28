@@ -5,9 +5,7 @@
 package org.epics.graphene.profile.impl;
 
 import java.awt.Graphics2D;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Map;
 import org.epics.graphene.*;
 import org.epics.graphene.profile.ProfileGraph2D;
 import org.epics.graphene.profile.utils.DatasetFactory;

@@ -8,7 +8,6 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.util.Arrays;
 import org.epics.util.array.ListNumber;
-import org.epics.util.array.SortedListView;
 
 /**
  * Renderer for a line graph.
