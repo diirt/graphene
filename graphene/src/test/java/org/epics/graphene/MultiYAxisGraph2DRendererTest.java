@@ -466,7 +466,6 @@ public class MultiYAxisGraph2DRendererTest extends BaseGraphTest<MultiAxisLineGr
     }
     
     @Test
-    @Ignore
     public void resizing() throws Exception {
         List<Point2DDataset> data = new ArrayList<Point2DDataset>();
         for(int i = 0; i < 3; i++){
@@ -475,7 +474,7 @@ public class MultiYAxisGraph2DRendererTest extends BaseGraphTest<MultiAxisLineGr
         
         BufferedImage image = new BufferedImage(640, 400, BufferedImage.TYPE_3BYTE_BGR);
         Graphics2D g = (Graphics2D) image.getGraphics();
-        MultiAxisLineGraph2DRenderer renderer = new MultiAxisLineGraph2DRenderer(640,480);
+        MultiAxisLineGraph2DRenderer renderer = new MultiAxisLineGraph2DRenderer(640,400);
         renderer.update(renderer.newUpdate().separateAreas(true));
         
         // Gradually reduce the image to simulate window being stretched
