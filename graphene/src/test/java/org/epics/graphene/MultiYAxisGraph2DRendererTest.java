@@ -9,10 +9,8 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.HashMap;
-import org.junit.AfterClass;
 import org.junit.Test;
 import java.util.List;
-import org.junit.BeforeClass;
 import org.epics.util.stats.Ranges;
 import org.junit.Ignore;
 
@@ -190,28 +188,6 @@ public class MultiYAxisGraph2DRendererTest extends BaseGraphTest<MultiAxisLineGr
         Graphics2D g = (Graphics2D) image.getGraphics();
         renderer.draw(g, data);
         return image;
-    }
-    private static Point2DDataset largeDataset;
-
-    /**
-     * Sets up the large dataset used in the tests
-     *
-     * @throws Exception
-     */
-    @BeforeClass
-    public static void setUpClass() throws Exception {
-        double[] waveform = Point2DTestDatasets.randomDataset();
-        largeDataset = org.epics.graphene.Point2DDatasets.lineData(waveform);
-    }
-
-    /**
-     * Empties the memory used in the large dataset
-     *
-     * @throws Exception
-     */
-    @AfterClass
-    public static void tearDownClass() throws Exception {
-        largeDataset = null;
     }
 
     @Test
